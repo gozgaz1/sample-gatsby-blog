@@ -3,7 +3,7 @@ import React from 'react';
 import { graphql, PageProps } from 'gatsby';
 import { BlogIndex } from '@/components/blog-post-components/BlogIndex';
 import BlogViewport from '@/components/blog-post-components/BlogViewport';
-import { BlogHeader } from '@/utils/types';
+import type { BlogHeader } from '@/utils/types';
 
 export default function IndexPage({ data }: PageProps<BlogHeader>) {
   const isBrowser = typeof window !== `undefined`;

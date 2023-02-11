@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 import FolderIcon from '../../images/folderIcon.png';
 import { TitleHeader } from './BlogViewport';
-import { BlogHeader, NodeProps } from '@/utils/types';
+import { NodeProps } from '@/utils/types';
 
 const IndexContainer = styled.div`
   height: 100vh;
