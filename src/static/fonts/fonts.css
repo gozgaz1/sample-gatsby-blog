@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Classified';
+    font-weight: 100 900;
+    font-style: bold;
+    src: local('Classified'), url(./Classified.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'StyledHeader';
+    font-weight: 100 900;
+    font-style: normal;
+    src: local('Styled Header'), url(./StyledHeader.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Typewriter';
+    font-weight: 100 900;
+    font-style: normal;
+    src: local('Typewriter'), url(./Typewriter.ttf) format("truetype");
+}
