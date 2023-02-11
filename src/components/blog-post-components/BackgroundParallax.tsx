@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { motion } from 'framer-motion';
-import { ImageCollections } from '@/utils/types';
+import type { ImageCollections } from '@/utils/types';
 
 const BackgroundWrapper = styled(motion.div)`
   margin: 0;

@@ -13,9 +13,11 @@ type NodeProps = {
 };
 
 type ImageCollections = {
-  blogPhotoCollection: Array<any>;
-  blogPrimaryPhoto: {
-    gatsbyImageData: any;
+  data: {
+    blogPhotoCollection: Array<any>;
+    blogPrimaryPhoto: {
+      gatsbyImageData: any;
+    };
   };
 };
 
