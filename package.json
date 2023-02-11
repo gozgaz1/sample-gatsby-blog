@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "gatsby develop",
-    "build": "yarn type-check && yarn lint && yarn format && gatsby clean && yarn test && gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true yarn type-check && yarn lint && yarn format && gatsby clean && yarn test && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "yarn jest",
